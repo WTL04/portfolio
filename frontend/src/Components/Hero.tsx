@@ -13,8 +13,8 @@ const Hero = () => {
 
       <div className="description">
         <p>Full Stack Developer</p>
-        <p>Computer Vision Researcher</p>
-        <p>Coding Tutor and Youth Leader</p>
+        <p>Computer Vision</p>
+        <p>Coding Tutor</p>
       </div>
 
       <div className="icons">
