@@ -49,8 +49,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/images/webp/floppy-fish.webp" type="image/webp" />
-              <img src="/images/floppy-fish.png" alt="Mind-Controlled" />
+              <img src="/images/MindControlled_Demo.gif" alt="Mind-Controlled" />
             </picture>
             <h4>Mind=Controlled</h4>
             <h5>

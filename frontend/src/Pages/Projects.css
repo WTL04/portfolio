@@ -2,6 +2,11 @@
   font-family: "Inter", sans-serif;
 }
 
-.project-page-wrapper {
-  
+.title-project
+{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 2rem;
+  padding-top: 7rem;
 }

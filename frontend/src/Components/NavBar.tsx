@@ -25,7 +25,7 @@ const NavBar = () => {
           <i className="fas fa-bars"></i>
         </label>
 
-        <div className="logo">{/* add logo here */} LOGO</div>
+        <div className="logo">{/* add logo here */} WILLIAM LUU</div>
         <ul className="menu">
           <li>HOME</li>
           <li>ABOUT</li>
