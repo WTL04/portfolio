@@ -1,7 +1,7 @@
-import "./Header.css";
+import "./NavBar.css";
 import { useEffect, useState } from "react";
 
-const Header = () => {
+const NavBar = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
@@ -37,4 +37,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;

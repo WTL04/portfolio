@@ -1,11 +1,11 @@
-import Header from "../Components/Header";
+import NavBar from "../Components/NavBar";
 import Hero from "../Components/Hero";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <Header />
+      <NavBar />
     </>
   )
 }
