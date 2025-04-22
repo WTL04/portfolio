@@ -1,19 +1,38 @@
 import "./Hero.css";
+import Typewriter from "typewriter-effect"
 
 const Hero = () => {
   return (
     <>
       <div className="intro">
-        <p>Hello World, My name is </p>
-        <div className="bolded-name">
-          <h3> WILLIAM LUU </h3>
-        </div>
-      </div>
 
-      <div className="description">
-        <p>Full Stack Developer</p>
-        <p>Computer Vision</p>
-        <p>Coding Tutor</p>
+
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString('Hello World, My name is <strong>WILLIAM LUU</strong>')
+              // disabling cursor 
+              .callFunction(() => {
+                const cursor = document.querySelector('.Typewriter__cursor');
+                if (cursor) {
+                  (cursor as HTMLElement).style.display = 'none';
+                }
+              })
+              .typeString('<br /><br /><p style="text-align:center;">Full Stack Developer</p>')
+              .typeString('<p style="text-align:center;">Computer Vision</p>')
+              .typeString('<p style="text-align:center;">Coding Tutor</p>')
+              .start();
+          }}
+          options={{
+            delay: 40,
+            cursor: '_',
+          }}
+        />
+
+
+
+
+
       </div>
 
       <div className="icons">
