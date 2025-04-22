@@ -10,9 +10,17 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <>
+
       <Home />
-      <About />
-      <Projects />
+
+      <section className="section" id="about">
+        <About />
+      </section>
+
+      <section className="section" id="projects">
+        <Projects />
+      </section>
+
       <Skills />
       <Footer />
     </>

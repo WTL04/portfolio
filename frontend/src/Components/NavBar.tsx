@@ -27,10 +27,18 @@ const NavBar = () => {
 
         <div className="logo">{/* add logo here */} WILLIAM LUU</div>
         <ul className="menu">
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>PROJECTS</li>
-          <li>CONTACT</li>
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
         </ul>
       </nav>
     </>

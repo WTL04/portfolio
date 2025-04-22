@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+/* enables smooth scrolling for section transition */
+html {scroll-behavior: smooth;}
+
 .navbar {
   font-family: "Inter", sans-serif;
   background-color: white;
@@ -38,15 +41,14 @@ li {
 }
 
 li a {
-  color: white;
+  color: black;
   font-size: 18px;
   padding: 19px;
   text-decoration: none;
-  border-radius: 3px;
 }
 
 li a:hover {
-  background-color: rgb(31, 5, 102);
+  background-color: #EEEEEE;
   transition: 0.5s;
 }
 
@@ -90,7 +92,6 @@ li a:hover {
     right: -100%;
     background-color: white;
     transition: right 0.3s ease-in-out;
-
     padding-top: 50px;
   }
 
@@ -105,24 +106,7 @@ li a:hover {
 
   .menu li a {
     padding: 20px 60px;
-    border-radius: 3px;
-  }
-
-  .menu li a:hover {
-    background-color: rgb(31, 5, 102);
-  }
-
-  .social-media {
-    flex-direction: row;
-    align-items: center;
-    position: fixed;
-    top: 400px;
-    right: -100%;
-    width: 100%;
-    justify-content: center;
-    background-color: #0a0a3d;
-    transition: right 0.3s ease-in-out;
-    padding-left: 5px;
+    color: black;
   }
 
   #check:checked ~ .menu {
