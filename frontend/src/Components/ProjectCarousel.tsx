@@ -11,12 +11,15 @@ export default function ProjectCarousel() {
         modules={[Navigation, Pagination]}
         navigation
         pagination={{ clickable: true }}
-        spaceBetween={24}
+        centeredSlides={true}
+        centerInsufficientSlides={true}
+        initialSlide={2}
+        spaceBetween={5}
         slidesPerView={1} // ✅ default (mobile)
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
+          1024: { slidesPerView: 4 },
           1280: { slidesPerView: 5 },
         }}
       >

@@ -1,5 +1,4 @@
 import "./Hero.css";
-import Line from "./Line";
 
 const Hero = () => {
   return (
