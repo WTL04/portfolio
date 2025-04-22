@@ -30,7 +30,7 @@ const NavBar = () => {
           <li>HOME</li>
           <li>ABOUT</li>
           <li>PROJECTS</li>
-          <li>BLOG</li>
+          <li>CONTACT</li>
         </ul>
       </nav>
     </>

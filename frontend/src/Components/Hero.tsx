@@ -24,7 +24,7 @@ const Hero = () => {
               .start();
           }}
           options={{
-            delay: 40,
+            delay: 30,
             cursor: '_',
           }}
         />
@@ -35,43 +35,45 @@ const Hero = () => {
 
       </div>
 
-      <div className="icons">
-        <a
-          href="https://github.com/WTL04"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="/images/github.png"
-            alt="github logo"
-            width="50"
-            height="50"
-          />
-        </a>
-        <a
-          href="https://linkedin.com/in/wtl04"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="/images/linkedin.png"
-            alt="linkedin logo"
-            width="50"
-            height="50"
-          />
-        </a>
-        <a
-          href="mailto:williamluu04@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="/images/gmail.png"
-            alt="gmail logo"
-            width="55"
-            height="45"
-          />
-        </a>
+      <div className="fade-in">
+        <div className="icons">
+          <a
+            href="https://github.com/WTL04"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/github.png"
+              alt="github logo"
+              width="50"
+              height="50"
+            />
+          </a>
+          <a
+            href="https://linkedin.com/in/wtl04"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/linkedin.png"
+              alt="linkedin logo"
+              width="50"
+              height="50"
+            />
+          </a>
+          <a
+            href="mailto:williamluu04@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/gmail.png"
+              alt="gmail logo"
+              width="55"
+              height="45"
+            />
+          </a>
+        </div>
       </div>
     </>
   );
