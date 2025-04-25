@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-page-wrapper">
 
         <div className="profile-circle">
-          <img src="/images/profile.webp" alt="pfp" width="350" height="350" />
+          <img src="/portfolio/images/profile.webp" alt="pfp" width="350" height="350" />
         </div>
 
         <div className="about-me">

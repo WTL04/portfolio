@@ -31,8 +31,8 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/images/heart2heart.webp" type="image/webp" />
-              <img src="/images/heart2heart.png" alt="Heart2Heart" />
+              <source srcSet="/portfolio/images/heart2heart.webp" type="image/webp" />
+              <img src="/portfolio/images/heart2heart.png" alt="Heart2Heart" />
             </picture>
             <h4>Heart2Heart</h4>
             <h5>
@@ -52,7 +52,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <img src="/images/MindControlled_Demo.gif" alt="Mind-Controlled" />
+              <img src="/portfolio/images/MindControlled_Demo.gif" alt="Mind-Controlled" />
             </picture>
             <h4>Mind=Controlled</h4>
             <h5>
@@ -72,7 +72,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/images/CNN.webp" type="image/webp" />
+              <source srcSet="/portfolio/images/CNN.webp" type="image/webp" />
               <img src="/images/CNN.png" alt="CNN" />
             </picture>
             <h4>Real-time Emotion Recognition App</h4>
@@ -93,7 +93,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/images/webp/floppy-fish.webp" type="image/webp" />
+              <source srcSet="/portfolio/images/webp/floppy-fish.webp" type="image/webp" />
               <img src="/images/github.png" alt="Super Tic Tac Toe" />
             </picture>
             <h4>Super Tic Tac Toe</h4>
@@ -114,7 +114,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/images/webp/floppy-fish.webp" type="image/webp" />
+              <source srcSet="/portfolio/images/webp/floppy-fish.webp" type="image/webp" />
               <img src="/images/github.png" alt="Maze Game" />
             </picture>
             <h4>Maze Game</h4>

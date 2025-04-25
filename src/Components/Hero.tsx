@@ -38,7 +38,7 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/github.png"
+              src="/portfolio/images/github.png"
               alt="github logo"
               width="50"
               height="50"
@@ -50,7 +50,7 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/linkedin.png"
+              src="/portfolio/images/linkedin.png"
               alt="linkedin logo"
               width="50"
               height="50"
@@ -62,7 +62,7 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/gmail.png"
+              src="/portfolio/images/gmail.png"
               alt="gmail logo"
               width="55"
               height="45"
