@@ -6,21 +6,21 @@ const Skills = () => {
       <div className="skills">
         <h1>SKILLS</h1>
         <div className="skill-container">
-          <i class="fa-brands fa-python"></i>
-          <i class="devicon-opencv-plain"></i>
-          <i class="devicon-pytorch-original"></i>
-          <i class="devicon-c-plain"></i>
-          <i class="devicon-cplusplus-plain"></i>
-          <i class="devicon-csharp-plain"></i>
-          <i class="devicon-nextjs-original-wordmark colored"></i>
-          <i class="devicon-tailwindcss-original"></i>
-          <i class="devicon-html5-plain"></i>
-          <i class="devicon-css3-plain"></i>
-          <i class="devicon-typescript-plain"></i>
-          <i class="devicon-fastapi-plain"></i>
-          <i class="devicon-figma-plain"></i>
-          <i class="devicon-git-plain"></i>
-          <i class="fa-brands fa-linux"></i>
+          <i className="fa-brands fa-python"></i>
+          <i className="devicon-opencv-plain"></i>
+          <i className="devicon-pytorch-original"></i>
+          <i className="devicon-c-plain"></i>
+          <i className="devicon-cplusplus-plain"></i>
+          <i className="devicon-csharp-plain"></i>
+          <i className="devicon-nextjs-original-wordmark colored"></i>
+          <i className="devicon-tailwindcss-original"></i>
+          <i className="devicon-html5-plain"></i>
+          <i className="devicon-css3-plain"></i>
+          <i className="devicon-typescript-plain"></i>
+          <i className="devicon-fastapi-plain"></i>
+          <i className="devicon-figma-plain"></i>
+          <i className="devicon-git-plain"></i>
+          <i className="fa-brands fa-linux"></i>
 
         </div>
       </div>
