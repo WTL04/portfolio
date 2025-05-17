@@ -5,8 +5,6 @@ const Hero = () => {
   return (
     <>
       <div className="intro">
-
-
         <Typewriter
           onInit={(typewriter) => {
             typewriter

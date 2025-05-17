@@ -87,6 +87,28 @@ export default function ProjectCarousel() {
 
         <SwiperSlide>
           <a
+            href="https://github.com/WTL04/Transformer-Decoder-Model"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-box"
+          >
+            <picture>
+              <source srcSet="/portfolio/images/transformer_output.webp" type="image/webp" />
+              <img src="/images/transformer_output.png" alt="Transformer Decoder" />
+            </picture>
+            <h4>Transformer Decoder Model</h4>
+            <h5>
+              <em>Python, PyTorch, Jupyter Notebook, Google Colab</em>
+            </h5>
+            <p>
+              Character-level GPT-Style decoder-only Transformer model. Implmented Multiheaded Masked Attention from scratch. Trained on Romeo and Juliet as a dataset.
+            </p>
+          </a>
+        </SwiperSlide>
+
+
+        <SwiperSlide>
+          <a
             href="https://github.com/WTL04/Unity_SuperTicTacToe"
             target="_blank"
             rel="noopener noreferrer"
@@ -106,26 +128,6 @@ export default function ProjectCarousel() {
           </a>
         </SwiperSlide>
 
-        <SwiperSlide>
-          <a
-            href="https://github.com/WTL04/Maze-game-"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-box"
-          >
-            <picture>
-              <source srcSet="/portfolio/images/webp/floppy-fish.webp" type="image/webp" />
-              <img src="/images/github.png" alt="Maze Game" />
-            </picture>
-            <h4>Maze Game</h4>
-            <h5>
-              <em>Python, Pygame</em>
-            </h5>
-            <p>
-              Simple Python game based on the popular horror game: "Scary Maze Game".
-            </p>
-          </a>
-        </SwiperSlide>
       </Swiper>
     </div >
   );
