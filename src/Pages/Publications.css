@@ -1,0 +1,12 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.title-publications{
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 2rem;
+  padding-top: 7rem;
+}

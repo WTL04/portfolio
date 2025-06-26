@@ -118,12 +118,12 @@ export default function ProjectCarousel() {
               <source srcSet="/portfolio/images/webp/floppy-fish.webp" type="image/webp" />
               <img src="/images/github.png" alt="Super Tic Tac Toe" />
             </picture>
-            <h4>Super Tic Tac Toe</h4>
+            <h4>Flex Sensor Optimization</h4>
             <h5>
-              <em>Unity, C#</em>
+              <em>Python, Scikit-Learn, Jupyter-Notebook, Data Analysis, Accquisition, and Visualization</em>
             </h5>
             <p>
-              Unity 2D game based on the popular game Tic Tac Toe, with a twist. Currently available as an Android APK package.
+              Designed an Uncertainity Aware Fusion Model using the predictions of 5 machine learning models: Linear Regression, Polynomial Regresssion, Random Forest, XGBoost, and Gaussian Processes Regresssion
             </p>
           </a>
         </SwiperSlide>

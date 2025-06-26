@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects"
+import Publications from "./Pages/Publications";
 import Skills from "./Pages/Skills"
 import Footer from "./Components/Footer";
 
@@ -19,6 +20,10 @@ function App() {
 
       <section className="section" id="projects">
         <Projects />
+      </section>
+
+      <section className="section" id="publications">
+        <Publications />
       </section>
 
       <Skills />

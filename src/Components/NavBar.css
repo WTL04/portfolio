@@ -24,6 +24,7 @@ html {scroll-behavior: smooth;}
 
 .logo {
   color: black;
+  font-size: 18px;
   margin-left: 3rem;
 }
 
@@ -43,7 +44,7 @@ li {
 li a {
   color: black;
   font-size: 18px;
-  padding: 19px;
+  padding: 1px;
   text-decoration: none;
 }
 
@@ -91,6 +92,7 @@ li a:hover {
     top: 70px;
     right: -100%;
     background-color: white;
+    opacity: 99%;
     transition: right 0.3s ease-in-out;
     padding-top: 50px;
   }

@@ -17,8 +17,8 @@ const Hero = () => {
                 }
               })
               .typeString('<br /><br /><p style="text-align:center;">Full Stack Developer</p>')
+              .typeString('<p style="text-align:center;">ML Research Assistant</p>')
               .typeString('<p style="text-align:center;">AL/ML Computer Vision</p>')
-              .typeString('<p style="text-align:center;">Coding Tutor</p>')
               .start();
           }}
           options={{

@@ -9,6 +9,8 @@ const About = () => {
       </div>
       <div className="about-page-wrapper">
 
+
+        {/* Change this to a rectangle cause the circle looks goofy  */}
         <div className="profile-circle">
           <img src="/portfolio/images/profile.webp" alt="pfp" width="350" height="350" />
         </div>
@@ -24,7 +26,7 @@ const About = () => {
             Beyond AI, I have a keen interest in full-stack development and UI/UX.
           </p>
           <p>
-            On my free time, I love to draw, play volleyball, play video games,
+            On my free time, I love to go camping, play volleyball, video games,
             and go biking!
           </p>
         </div>

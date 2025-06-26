@@ -21,7 +21,6 @@ const Skills = () => {
           <i className="devicon-figma-plain"></i>
           <i className="devicon-git-plain"></i>
           <i className="fa-brands fa-linux"></i>
-
         </div>
       </div>
     </>
