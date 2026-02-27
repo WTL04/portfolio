@@ -17,7 +17,7 @@ const Hero = () => {
                 }
               })
               .typeString('<br /><br /><p style="text-align:center;">Full Stack Developer</p>')
-              .typeString('<p style="text-align:center;">AI/ML Research Assistant</p>')
+              .typeString('<p style="text-align:center;">ML Research Assistant</p>')
               .typeString('<p style="text-align:center;">Academic Tutor</p>')
               .start();
           }}
