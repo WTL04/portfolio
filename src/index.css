@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'miricle-mono';
+  src: local('miricle-mono'), url('/fonts/miracle-mono.regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
