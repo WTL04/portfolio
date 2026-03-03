@@ -1,13 +1,46 @@
 .project-section {
-  max-width: 100%; /* or 100% if you want full-width with padding */
-  padding: 0 5rem;   /* left and right padding */
+  max-width: 100%;
+  padding: 0 5rem;
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 10rem;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
 
-/* Each project card */
+@media (min-width: 640px) {
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .project-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.project-card {
+  display: flex;
+  justify-content: center;
+}
+
 .project-box {
   display: block;
   background: #ffffff;
@@ -23,17 +56,11 @@
   max-width: 300px;
 }
 
-
-.swiper-slide:first-child {
-    margin-left: 1.9rem; /* or whatever spacing you want */
-}
-
 .project-box:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
-/* Image inside card */
 .project-box picture,
 .project-box img {
   display: block;
@@ -43,14 +70,12 @@
   margin: 0 auto 1rem;
 }
 
-/* Title */
 .project-box h4 {
   font-size: 1.3rem;
   margin: 0.5rem 0;
   color: #333;
 }
 
-/* Language tag */
 .project-box h5 {
   font-size: 0.95rem;
   margin: 0;
@@ -58,33 +83,9 @@
   font-style: italic;
 }
 
-/* Description text */
 .project-box p {
   font-size: 1rem;
   color: #556;
   margin-top: 1.75rem;
   line-height: 1.5;
-}
-
-/* Swiper arrows */
-.swiper-button-next,
-.swiper-button-prev {
-  color: #889;
-  transition: color 1.3s ease;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  color: #112;
-}
-
-/* Pagination dots */
-.swiper-pagination-bullet {
-  background: #ccc;
-  opacity: 2;
-  transition: background 1.3s ease;
-}
-
-.swiper-pagination-bullet-active {
-  background: #334;
 }

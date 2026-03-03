@@ -13,7 +13,7 @@ const papers: Paper[] = [
     year: "Present",
     summary:
       "Bayesian optimization framework for minimizing dimensional variance in SLA microfluidic channels using Gaussian Processes.",
-    thumbnail: "/portfolio/images/wip.png",
+    thumbnail: "/images/wip.png",
     tags: ["Bayesian Optimization", "SLA 3D Printing", "Machine Learning"],
     links: [
       { label: "Code", url: "https://github.com/WTL04/Closed-Loop-Optimization-For-SLA-Printed-Microfluidic-Channels" }
@@ -27,7 +27,7 @@ const papers: Paper[] = [
     year: "2025",
     summary:
       "Flex sensors are pivotal in wearable technology, robotics, and gesture recognition due to their affordability and flexibility. However, their performance is often hindered by non-linear behavior, environmental sensitivity, and variability. This paper explores the enhancement of low-cost flex sensor performance through machine learning regression models. A system was designed using an Arduino-based setup for automated data collection, integrating a servo motor for precise angle control and a voltage divider for resistance measurement. Several regression models, including Linear Regression, Polynomial Regression, Random Forest, XGBoost, Gaussian Process Regression (GPR),a Stacked Ensemble, and an uncertainty-aware fusion model, were evaluated based on Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² scores. Results showed that GPR achieved the highest prediction accuracy with an MAE of 0.82° and R² of 0.9981, outperforming traditional methods. These findings demonstrate that applying advanced machine learning techniques significantly enhances the predictive reliability of flex sensors, making them more viable for precision applications in wearable and embedded systems.",
-    thumbnail: "/portfolio/images/paper1-preview.png",
+    thumbnail: "/images/paper1-preview.png",
     tags: ["Flex Sensors", "Body Sensor", "Machine Learning"],
     links: [
       { label: "PDF", url: "https://openreview.net/pdf?id=fgb0w9PUnc" },
