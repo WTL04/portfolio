@@ -23,7 +23,7 @@ export default function ProjectCarousel() {
           1280: { slidesPerView: 5 },
         }}
       >
-        <SwiperSlide>
+        <div>
           <a
             href="https://github.com/bbrxnd/Heart2Heart"
             target="_blank"
@@ -31,8 +31,8 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/portfolio/images/heart2heart.webp" type="image/webp" />
-              <img src="/portfolio/images/heart2heart.png" alt="Heart2Heart" />
+              <source srcSet="/images/heart2heart.webp" type="image/webp" />
+              <img src="/images/heart2heart.png" alt="Heart2Heart" />
             </picture>
             <h4>Heart2Heart</h4>
             <h5>
@@ -42,7 +42,7 @@ export default function ProjectCarousel() {
               Heart2Heart is an all-in-one fullstack web application to assist those with heart diseases/conditions.
             </p>
           </a>
-        </SwiperSlide>
+        </div>
 
         <SwiperSlide>
           <a
@@ -52,7 +52,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <img src="/portfolio/images/MindControlled_Demo.gif" alt="Mind-Controlled" />
+              <img src="/images/MindControlled_Demo.gif" alt="Mind-Controlled" />
             </picture>
             <h4>Mind=Controlled</h4>
             <h5>
@@ -72,7 +72,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/portfolio/images/CNN.webp" type="image/webp" />
+              <source srcSet="/images/CNN.webp" type="image/webp" />
               <img src="/images/CNN.png" alt="CNN" />
             </picture>
             <h4>Real-time Emotion Recognition App</h4>
@@ -93,7 +93,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/portfolio/images/transformer_output.webp" type="image/webp" />
+              <source srcSet="/images/transformer_output.webp" type="image/webp" />
               <img src="/images/transformer_output.png" alt="Transformer Decoder" />
             </picture>
             <h4>Transformer Decoder Model</h4>
@@ -115,7 +115,7 @@ export default function ProjectCarousel() {
             className="project-box"
           >
             <picture>
-              <source srcSet="/portfolio/images/webp/floppy-fish.webp" type="image/webp" />
+              <source srcSet="/images/webp/floppy-fish.webp" type="image/webp" />
               <img src="/images/github.png" alt="Super Tic Tac Toe" />
             </picture>
             <h4>Flex Sensor Optimization</h4>

@@ -12,7 +12,7 @@ const About = () => {
 
         {/* Change this to a rectangle cause the circle looks goofy  */}
         <div className="profile-circle">
-          <img src="/portfolio/images/profile.webp" alt="pfp" width="350" height="350" />
+          <img src="/images/profile.webp" alt="pfp" width="350" height="350" />
         </div>
 
         <div className="about-me">
