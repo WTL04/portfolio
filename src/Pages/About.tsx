@@ -4,20 +4,20 @@ const About = () => {
   return (
     <>
 
-      <div className="title-about">
-        <h1>ABOUT</h1>
-      </div>
+
       <div className="about-page-wrapper">
+        <div className="section-title">
+          <h1>ABOUT ME</h1>
+          <div className="title-underline"></div>
+        </div>
 
-
-        {/* Change this to a rectangle cause the circle looks goofy  */}
-        <div className="profile-circle">
-          <img src="/images/profile.webp" alt="pfp" width="350" height="350" />
+        <div className="profile-rectangle">
+          <img src="/images/me_extra.png" alt="pfp" />
         </div>
 
         <div className="about-me">
           <p>
-            I am 20 years old from <strong>Westminster, California</strong>.
+            I am 21 years old from <strong>Westminster, California</strong>.
 
             I am currently studying <strong>Computer Science</strong> at <strong>California State University, Long Beach</strong>, passionate about the intersection of machine learning, computer vision, and AI research.
           </p>

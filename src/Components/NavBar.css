@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 
-/* enables smooth scrolling for section transition */
-html {scroll-behavior: smooth;}
+html { scroll-behavior: smooth; }
 
 .navbar {
   font-family: "miricle-mono", sans-serif;
-  background-color: white;
+  background-color: #e8e2d5;
+  border-bottom: 1px solid #c8c2b5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,12 +19,13 @@ html {scroll-behavior: smooth;}
   width: 100%;
   height: 90px;
   z-index: 3;
-  top: 0; /* ensures nvabar stays on top of page */
+  top: 0;
 }
 
 .logo {
-  color: black;
+  color: #f97316;
   font-size: 18px;
+  font-weight: bold;
   margin-left: 3rem;
 }
 
@@ -38,19 +39,19 @@ html {scroll-behavior: smooth;}
 li {
   display: inline-block;
   margin-right: 3rem;
-  text-decoration: underline;
 }
 
 li a {
-  color: black;
+  color: #6b6560;
   font-size: 18px;
   padding: 1px;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 li a:hover {
-  background-color: #EEEEEE;
-  transition: 0.5s;
+  color: #f97316;
+  background-color: transparent;
 }
 
 #check {
@@ -59,14 +60,12 @@ li a:hover {
 
 .checkbtn {
   font-size: 30px;
-  color: black;
+  color: #6b6560;
   cursor: pointer;
-  display: none; /* Initially hidden */
+  display: none;
 }
 
-/* FOR HAMBURGER ICON */
-@media (width <= 1280px) {
-  /* NAVIGATION BAR */
+@media (max-width: 1280px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -91,8 +90,8 @@ li a:hover {
     position: fixed;
     top: 70px;
     right: -100%;
-    background-color: white;
-    opacity: 99%;
+    background-color: #e8e2d5;
+    border-top: 1px solid #c8c2b5;
     transition: right 0.3s ease-in-out;
     padding-top: 50px;
   }
@@ -108,7 +107,7 @@ li a:hover {
 
   .menu li a {
     padding: 20px 60px;
-    color: black;
+    color: #6b6560;
   }
 
   #check:checked ~ .menu {

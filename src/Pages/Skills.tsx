@@ -1,29 +1,44 @@
 import "./Skills.css";
 
+const skillGroups = [
+  {
+    category: "Languages",
+    skills: ["Python", "C", "C++", "C#", "TypeScript", "HTML", "CSS"],
+  },
+  {
+    category: "ML / AI",
+    skills: ["PyTorch", "OpenCV", "Scikit-learn", "Jupyter", "Google Colab"],
+  },
+  {
+    category: "Web",
+    skills: ["Next.js", "React", "Tailwind", "FastAPI"],
+  },
+  {
+    category: "Tools",
+    skills: ["Git", "Linux", "Figma"],
+  },
+];
+
 const Skills = () => {
   return (
-    <>
-      <div className="skills">
+    <div className="skills">
+      <div className="section-title">
         <h1>SKILLS</h1>
-        <div className="skill-container">
-          <i className="fa-brands fa-python"></i>
-          <i className="devicon-opencv-plain"></i>
-          <i className="devicon-pytorch-original"></i>
-          <i className="devicon-c-plain"></i>
-          <i className="devicon-cplusplus-plain"></i>
-          <i className="devicon-csharp-plain"></i>
-          <i className="devicon-nextjs-original-wordmark colored"></i>
-          <i className="devicon-tailwindcss-original"></i>
-          <i className="devicon-html5-plain"></i>
-          <i className="devicon-css3-plain"></i>
-          <i className="devicon-typescript-plain"></i>
-          <i className="devicon-fastapi-plain"></i>
-          <i className="devicon-figma-plain"></i>
-          <i className="devicon-git-plain"></i>
-          <i className="fa-brands fa-linux"></i>
-        </div>
+        <div className="title-underline"></div>
       </div>
-    </>
+      <div className="skill-groups">
+        {skillGroups.map((group) => (
+          <div key={group.category} className="skill-group">
+            <span className="skill-category">{group.category}</span>
+            <div className="skill-pills">
+              {group.skills.map((skill) => (
+                <span key={skill} className="skill-pill">{skill}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

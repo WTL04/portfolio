@@ -7,25 +7,20 @@ export type PaperLink = {
 
 export type Paper = {
   id: string;
-    title: string;
-    authors: string;
-    venue: string;
-    year: string;
-    summary: string;
-    thumbnail?: string; // first page image or key figure
-    tags?: string[];
-    links: PaperLink[];
+  title: string;
+  authors: string;
+  venues: { name: string; year: string }[];
+  summary: string;
+  thumbnail?: string;
+  tags?: string[];
+  links: PaperLink[];
 };
 
 type Props = {
   papers: Paper[];
 };
 
-
-
-const PaperDisplay: React.FC<Props> = ({
-  papers
-}) => {
+const PaperDisplay: React.FC<Props> = ({ papers }) => {
   return (
     <section className="papers">
       <div className="papers-list">
@@ -36,20 +31,19 @@ const PaperDisplay: React.FC<Props> = ({
                 <img src={paper.thumbnail} alt={`${paper.title} preview`} />
               </div>
             )}
-
             <div className="paper-content">
               <h3 className="paper-title">{paper.title}</h3>
-
-              <p className="paper-meta">
-                {paper.authors}
-              </p>
-
-              <p className="paper-meta">
-                {paper.venue} • {paper.year}
-              </p>
-
+              <p className="paper-authors">{paper.authors}</p>
+              <div className="paper-venues">
+                {paper.venues.map((v) => (
+                  <p key={v.name} className="paper-venue">
+                    {v.name}
+                    <span className="paper-venue-sep"> • </span>
+                    {v.year}
+                  </p>
+                ))}
+              </div>
               <p className="paper-summary">{paper.summary}</p>
-
               {paper.tags && paper.tags.length > 0 && (
                 <div className="paper-tags">
                   {paper.tags.map((tag) => (
@@ -59,7 +53,6 @@ const PaperDisplay: React.FC<Props> = ({
                   ))}
                 </div>
               )}
-
               <div className="paper-links">
                 {paper.links.map((link) => (
                   <a

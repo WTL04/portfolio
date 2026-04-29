@@ -1,38 +1,68 @@
 * {
+  margin: 0;
   font-family: "miricle-mono", sans-serif;
+}
+
+body {
+  background-color: #f0ebe0;
+  color: #1a1814;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e8e2d5;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 .intro {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15rem;
-  height: 12rem;
-
   font-size: 2rem;
-}
-
-.bolded-name {
-  padding-left: 8px;
-}
-
-.description {
   text-align: center;
-  margin-top: 3rem;
+  width: 100%;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  color: #6b6560;
+}
 
-  font-size: 2rem;
+.accent-name {
+  color: #f97316;
+}
+
+.roles {
+  color: #1a1814;
+}
+
+.divider {
+  width: 60px;
+  height: 2px;
+  background-color: #f97316;
+  margin: 2rem auto;
 }
 
 .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
-  margin-bottom: 25rem;
+  margin-top: 1rem;
 }
 
 .icons a {
   padding: 1rem;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.icons a:hover {
+  opacity: 1;
 }
 
 .fade-in {
@@ -44,30 +74,18 @@
 }
 
 @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
   .intro {
-    font-size: 1.5rem;
-  }
-
-  .description {
     font-size: 1.5rem;
   }
 }
 
-@media (width <= 380px) {
+@media (max-width: 380px) {
   .intro {
-    font-size: 1rem;
-  }
-
-  .description {
     font-size: 1rem;
   }
 }
