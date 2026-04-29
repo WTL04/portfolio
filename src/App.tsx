@@ -4,6 +4,7 @@ import About from "./Pages/About";
 import Projects from "./Pages/Projects"
 import Publications from "./Pages/Publications";
 import Skills from "./Pages/Skills"
+import OfflineLife from "./Pages/OfflineLife"
 import Footer from "./Components/Footer";
 
 // import global styles 
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
 
-      <div className="my-app" style={{ fontFamily: "miricle-mono"}}>
+      <div className="my-app" style={{ fontFamily: "miricle-mono" }}>
         <Home />
 
         <section className="section" id="about">
@@ -28,7 +29,14 @@ function App() {
           <Publications />
         </section>
 
-        <Skills />
+        <section className="section" id="skills">
+          <Skills />
+        </section>
+
+        <section className="section" id="offline">
+          <OfflineLife />
+        </section>
+
         <Footer />
       </div>
     </>

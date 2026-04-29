@@ -1,2 +1,2 @@
 Welcome to my portfolio!
-Have a coffee ☕
+Please have a coffee ☕

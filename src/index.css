@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+
+/* top margin when nav bar scrolls to a section*/
+.section {
+  scroll-margin-top: 90px;
+}
+
 .section-title {
   display: flex;
   flex-direction: column;

@@ -10,7 +10,7 @@ html { scroll-behavior: smooth; }
 
 .navbar {
   font-family: "miricle-mono", sans-serif;
-  background-color: #e8e2d5;
+  background-color: #eceae5;
   border-bottom: 1px solid #c8c2b5;
   display: flex;
   align-items: center;

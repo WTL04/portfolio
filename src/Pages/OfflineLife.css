@@ -1,0 +1,100 @@
+.offline-section {
+  background-color: #eceae5;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: 40px 40px; 
+  padding: 2rem 4rem 8rem 4rem; 
+}
+
+.offline-page-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  background: #1a1a1a;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Maintain aspect ratios based on your provided images */
+.portrait {
+  grid-row: span 2;
+  aspect-ratio: 3 / 4; 
+}
+
+.landscape {
+  grid-column: span 2;
+  aspect-ratio: 16 / 9;
+}
+
+/* Hover effect for interactivity */
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item {
+  position: relative; /* Necessary for absolute positioning of captions */
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.caption-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: #ffffff;
+  padding: 20px 15px 10px 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* Allows clicks to pass through to the image if needed */
+}
+
+.gallery-item:hover .caption-overlay {
+  opacity: 1;
+}
+
+.caption-overlay p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+/* Ensure images have a slight darken effect on hover to pop the text */
+.gallery-item:hover img {
+  filter: brightness(70%);
+  transform: scale(1.03);
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .portrait, .landscape {
+    grid-column: span 1;
+    grid-row: span 1;
+    aspect-ratio: auto;
+  }
+}

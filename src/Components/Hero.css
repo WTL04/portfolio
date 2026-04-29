@@ -14,7 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #e8e2d5;
+  background-color: #eceae5;
   background-image: 
     linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
@@ -38,7 +38,7 @@ body {
 }
 
 .roles {
-  color: #1a1814;
+  color: #6b6560;
 }
 
 .divider {

@@ -1,18 +1,45 @@
 import './ProjectCarousel.css';
 
 const projects = [
+
+  // WIP
   {
-    href: "https://github.com/bbrxnd/Heart2Heart",
-    imgWebp: "/images/heart2heart.webp",
-    imgPng: "/images/heart2heart.png",
-    alt: "Heart2Heart",
-    title: "Heart2Heart",
-    tech: "NextJS, Tailwind, FastAPI",
-    description: "Heart2Heart is an all-in-one fullstack web application to assist those with heart diseases/conditions.",
-    event: "BeachHacks 2025",
+    href: "https://devpost.com/software/coral-pv38mq?ref_content=my-projects-tab&ref_feature=my_projects",
+    imgSrc: "/images/wip.png",
+    imgPng: undefined,
+    imgWebp: undefined,
+    alt: "Ashguard",
+    title: "Ashguard",
+    tech: "React Native, FastAPI, AWS EC2, REDIS, Firebase",
+    description: "Wildfire evacuation mobile application, WIP...",
+    event: "Senior Capstone",
+
+  },
+  // Hackathons / competitions - most recent first
+  {
+    href: "https://devpost.com/software/coral-pv38mq?ref_content=my-projects-tab&ref_feature=my_projects",
+    imgSrc: "/images/coral.gif",
+    imgPng: undefined,
+    imgWebp: undefined,
+    alt: "C.O.R.A.L",
+    title: "C.O.R.A.L",
+    tech: "FastAPI, Gemini, Arcgis, HTML/CSS/JS",
+    description: "Adversarial pandemic simulation where you deploy and mutate a virus against a Gemini-powered AI coordinator reasoning in real time on a 3D globe.",
+    event: "FullyHacks 2026",
   },
   {
-    href: "https://github.com/WTL04/Mind-Controlled",
+    href: "https://github.com/WinstonTa/Starbound-Atlas-2025",
+    imgSrc: "/images/happy_mapper.gif",
+    imgPng: undefined,
+    imgWebp: undefined,
+    alt: "",
+    title: "Happy Mapper",
+    tech: "React Native, FastAPI, Gemini Vision, Firebase",
+    description: "React Native app that uses Google Gemini to parse menu photos and surface real-time happy hour deals near you.",
+    event: "1st place 🥇, Project Starbound @ CSULB",
+  },
+  {
+    href: "https://devpost.com/software/mind-controlled",
     imgSrc: "/images/MindControlled_Demo.gif",
     imgPng: undefined,
     imgWebp: undefined,
@@ -22,6 +49,7 @@ const projects = [
     description: "A hands-free accessibility-based Python application. Tracks user's head movement and voice for a seamless desktop experience.",
     event: "FullyHacks 2025",
   },
+  // Independent
   {
     href: "https://github.com/WTL04/Emotion-Recognition-App",
     imgWebp: "/images/CNN.webp",
@@ -32,18 +60,30 @@ const projects = [
     description: "CNN Model trained on FER2013 Frontal Face Dataset. Test accuracy of 71% currently.",
     event: "Independent Project",
   },
+  // Class projects last
+  {
+    href: "https://github.com/WTL04/CECS458---Skin-Issue-Detection",
+    imgSrc: "/images/skin_detector.gif",
+    imgPng: undefined,
+    imgWebp: undefined,
+    alt: "",
+    title: "YOLO Skin Issue Detection",
+    tech: "TensorFlow (CUDA), PyTorch, FastAPI",
+    description: "YOLOv8 + OpenAI skin analysis app that detects issues from images and returns personalized skincare recommendations.",
+    event: "Class Project",
+  },
   {
     href: "https://github.com/WTL04/Transformer-Decoder-Model",
     imgWebp: "/images/transformer_output.webp",
     imgPng: "/images/transformer_output.png",
     alt: "Transformer Decoder",
     title: "Transformer Decoder Model",
-    tech: "Python, PyTorch, Jupyter Notebook, Google Colab",
+    tech: "PyTorch",
     description: "Character-level GPT-Style decoder-only Transformer model. Implemented Multiheaded Masked Attention from scratch. Trained on Romeo and Juliet as a dataset.",
-    event: "Class Project"
+    event: "Class Project",
   },
-
 ];
+
 
 export default function ProjectCarousel() {
   return (
